@@ -14,7 +14,7 @@ public class App {
     }
 
     private static void createAndShowGUI(){
-        ClipBoardView view = new ClipBoardView("Clippy");
+        ClipBoardView view = new ClipBoardView("Super Extreme Clipboard For Imortals Only");
         ClipboardModel model = new ClipboardModel();
         ClipboardController controller = new ClipboardController(model, view);
         view.setVisible(true);
